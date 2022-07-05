@@ -1,2 +1,2 @@
 # ReactJS
-Bootcamp - Digital Innovation One 
+Bootcamp - Impulso JavaScript Evolution - Digital Innovation One
