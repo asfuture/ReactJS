@@ -6,6 +6,10 @@
   height: 40vmin;
   pointer-events: none;
 }
+button{
+  width: 100px;
+  height: 30px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

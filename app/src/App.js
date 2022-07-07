@@ -1,10 +1,26 @@
 import logo from './logo.svg';
+import Button from './button';
 import './App.css';
 
 
+const element = "Digital Inovation One";
+const element1 = <h1>Olá, React</h1>;
+
 function sum(a,b){
-  return a+b;
+  return a+b
 }
+
+function renderizaElement() {
+  return (
+    <div>
+      {element}
+      {element1}
+      <Button onClick={()=> sum(5, 5)} name="Click aqui"/>
+    </div>
+  );
+}
+
+
 
 function primeiroJSX(){
   return (
@@ -32,7 +48,7 @@ function App() {
         >
           ASFuture
         </a>
-        
+          {renderizaElement()}
       </header>
     </div>
   );
