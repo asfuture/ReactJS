@@ -16,6 +16,7 @@ function renderizaElement() {
       {element}
       {element1}
       <Button onClick={()=> sum(5, 5)} name="Click aqui"/>
+      <Button />
     </div>
   );
 }
